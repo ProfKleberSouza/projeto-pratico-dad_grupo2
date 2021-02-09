@@ -1,18 +1,18 @@
-# TÍTULO DO PROJETO
+# PsicoSocial
 
-`CURSO`
+`Sistemas de Informação - PUC Minas Contagem`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicações Distribuídas`
 
-`SEMESTRE`
+`7º Semestre - 2021`
 
 ## Participantes
 
 Os membros do grupo são: 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
+- Antonio Carlos Ribeiro da Cruz
+- Arthur Andrade Gonçalves
+- Henrique Almeida Louzada
+- Laryssa da Silva Lucas
 
 # Documentação
 
