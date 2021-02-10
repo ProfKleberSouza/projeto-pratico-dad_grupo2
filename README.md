@@ -11,6 +11,7 @@
 Os membros do grupo são: 
 - Antonio Carlos Ribeiro da Cruz
 - Arthur Andrade Gonçalves
+- Celso Soares Cesar
 - Henrique Almeida Louzada
 - Laryssa da Silva Lucas
 
