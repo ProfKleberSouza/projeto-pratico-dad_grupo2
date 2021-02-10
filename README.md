@@ -6,6 +6,9 @@
 
 `7º Semestre - 2021`
 
+## Especificações
+https://github.com/KleberSouza/psi
+
 ## Participantes
 
 Os membros do grupo são: 
