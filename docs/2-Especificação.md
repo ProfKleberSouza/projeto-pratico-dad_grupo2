@@ -8,47 +8,31 @@
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
+Persona 1: Silva Dias tem 32 anos e é membro da comunidade Ruby. Supervisor de estoque em um supermercado na zona central da cidade, está sempre realizando diferentes atividades em sua rotina de trabalho. Ele passa por diversas situações turbulentas em seu dia a dia, o que se agravou  com a pandemia do novo coronavírus, e gostaria de se inscrever para receber o tratamento psicológico gratuito na ONG presente em sua comunidade.
 
 
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
+Persona 2: Ana Paula Catelli tem 29 anos, é formada em Psicologia e trabalha meio período em um consultório localizado na região central de sua cidade. Solteira e apaixonada por serviços voluntários, recentemente realizou seu sonho de atuar em uma ONG que presta atendimentos psicológicos gratuitos à comunidade, e gostaria de algo que auxiliasse em sua organização com os horários dos pacientes e que gere um prontuário do atendimento realizado.
+
+Persona 3: Juliana Medeiros tem 31 anos, é estudante de Direito e atua como secretária em uma ONG para conseguir pagar seus estudos. Casada e mãe de um filho, nunca colocou limites em seus sonhos e sempre acreditou que nunca é tarde para conquistar um diploma. Após concluir a graduação, pretende abrir um escritório próprio de advocacia. Suas atividades exercidas necessitam de uma ferramenta que auxilie na marcação de consultas dos pacientes, assim como manejo nos horários deles.
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Membro da Comunidade | Me inscrever no sistema da ONG, informando nome, email, telefone, senha para login         | Se aprovado na triagem, receber atendimento psicológico gratuito              |
+|Membro da Comunidade | Visualizar datas disponíveis no calendário         | Selecionar uma data de interesse para consulta       |
+|Membro da Comunidade | Visualizar os profissionais disponíveis para atendimento em determinada data         | Selecionar o profissional com o qual desejo atendimento      |
+|Profissional de Psicologia | Me inscrever no sistema da ONG informando nome, e-mail, telefone e senha , número inscrição CFR    | Ser incluído no grupo de profissionais que prestam serviço na ONG |
+|Profissional de Psicologia | Gerar prontuários no sistema               | Armazenar as informações do paciente após o seu atendimento |
+|Secretária | Me inscrever no sistema da ONG, informando nome, email, telefone e senha              | Gerir a marcação de consultas dos pacientes |
+|Secretária | Visualizar o cadastro dos membros inscritos no sistema   | Avaliar os dados dos membros, no processo de triagem, para verificar se estão aptos ao atendimento gratuito na ONG|
+|Secretária | Visualizar os membros liberados para receber atendimento  | Associar um membro ao Profissional de Psicologia |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+
+
 
 ## Requisitos
 
@@ -58,8 +42,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve permitir os usuários do tipo Psicólogo, Membro da comunidade ou Secretária, se cadastrarem no  sistema, informando Nome, Email, Senha e Número inscrição CFR para os Profissionais de Psicologia | ALTA |  
+|RF-002| O sistema deve permitir que o usuário faça login no sistema através do seu e-mail e senha  | ALTA |
+|RF-003| O sistema deve permitir o Membro da Comunidade se inscrever para triagem para que seja verificado se ele atende os pré requisitos para atendimento gratuito na ONG| MÉDIA |
+|RF-004| O sistema deve permitir que o Membro da Comunidade selecione uma data para atendimento psicológico, após ser aprovado na triagem  | ALTA |
+|RF-005| O sistema deve permitir que o Membro da Comunidade selecione um Profissional de Psicologia disponível para a data escolhida  | MÉDIA |
+|RF-006| O sistema deve permitir que o Profissional de Psicologia adicione informações do paciente em seu prontuário, após cada consulta | ALTA |
+|RF-007| O sistema deve permitir que a Secretária visualize membros da comunidade inscritos no sistema, para realizar a triagem liberados para atendimento, para associá-los a um Profissional de Psicologia | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
