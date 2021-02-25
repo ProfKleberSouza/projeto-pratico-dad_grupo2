@@ -28,51 +28,30 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Secretária | Visualizar o cadastro dos membros inscritos no sistema   | Avaliar os dados dos membros, no processo de triagem, para verificar se estão aptos ao atendimento gratuito na ONG|
 |Secretária | Visualizar os membros liberados para receber atendimento  | Associar um membro ao Profissional de Psicologia |
 
-
-
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir os usuários do tipo Psicólogo, Membro da comunidade ou Secretária, se cadastrarem no  sistema, informando Nome, Email, Senha e Número inscrição CFR para os Profissionais de Psicologia | ALTA |  
-|RF-002| O sistema deve permitir que o usuário faça login no sistema através do seu e-mail e senha  | ALTA |
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RF-001| O sistema deve permitir os usuários do tipo Psicólogo, Membro da comunidade ou Secretária, se cadastrarem no  sistema, informando Nome, Email, Senha e, no caso dos  profissionais de psicologia, número inscrição CFR.| ALTA |  
+|RF-002| O sistema deve permitir que os usuários façam login no sistema através do seu e-mail e senha  | ALTA |
 |RF-003| O sistema deve permitir o Membro da Comunidade se inscrever para triagem para que seja verificado se ele atende os pré requisitos para atendimento gratuito na ONG| MÉDIA |
 |RF-004| O sistema deve permitir que o Membro da Comunidade selecione uma data para atendimento psicológico, após ser aprovado na triagem  | ALTA |
-|RF-005| O sistema deve permitir que o Membro da Comunidade selecione um Profissional de Psicologia disponível para a data escolhida  | MÉDIA |
-|RF-006| O sistema deve permitir que o Profissional de Psicologia adicione informações do paciente em seu prontuário, após cada consulta | ALTA |
-|RF-007| O sistema deve permitir que a Secretária visualize membros da comunidade inscritos no sistema, para realizar a triagem liberados para atendimento, para associá-los a um Profissional de Psicologia | MÉDIA |
-
-
+|RF-005| O sistema deve permitir que o Membro da Comunidade realize o cancelamento de uma consulta | ALTA|
+|RF-006| O sistema deve permitir que o Membro da Comunidade realize a mudança de data de uma consulta agendada | ALTA|
+|RF-007| O sistema deve permitir que o Profissional de Psicologia adicione informações do paciente em seu prontuário, após cada consulta | ALTA |
+|RF-008| O sistema deve permitir que a Secretária visualize membros da comunidade inscritos no sistema e aprovados na triagem, para associá-los a um Profissional de Psicologia | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O site deve ser responsivo para rodar em um dispositivos móveis | MÉDIA | 
+|RNF-002| As notificações de confirmação do agendamento de consulta, devem ser enviadas em forma de push ou email, conforme previamente configurado pelo usuário  | BAIXA | 
+|RNF-003| As datas disponíveis para agendamento de consultas, devem ser exibidas em uma interface de calendário, semelhante aos eventos do Google Agenda. | BAIXA |
 
 ## Restrições
 
