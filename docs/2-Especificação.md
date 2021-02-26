@@ -5,7 +5,7 @@
 
 ## Personas
 
-Persona 1: Silva Dias tem 32 anos e é membro da comunidade Ruby. Supervisor de estoque em um supermercado na zona central da cidade, está sempre realizando diferentes atividades em sua rotina de trabalho. Ele passa por diversas situações turbulentas em seu dia a dia, o que se agravou  com a pandemia do novo coronavírus, e gostaria de se inscrever para receber o tratamento psicológico gratuito na ONG presente em sua comunidade.
+Persona 1: Silva Dias tem 32 anos e é membro da comunidade região norte de BH. Supervisor de estoque em um supermercado na zona central da cidade, está sempre realizando diferentes atividades em sua rotina de trabalho. Ele passa por diversas situações turbulentas em seu dia a dia, o que se agravou  com a pandemia do novo coronavírus, e gostaria de se inscrever para receber o tratamento psicológico gratuito na ONG presente em sua comunidade.
 
 
 Persona 2: Ana Paula Catelli tem 29 anos, é formada em Psicologia e trabalha meio período em um consultório localizado na região central de sua cidade. Solteira e apaixonada por serviços voluntários, recentemente realizou seu sonho de atuar em uma ONG que presta atendimentos psicológicos gratuitos à comunidade, e gostaria de algo que auxiliasse em sua organização com os horários dos pacientes e que gere um prontuário do atendimento realizado.
@@ -17,7 +17,7 @@ Persona 3: Juliana Medeiros tem 31 anos, é estudante de Direito e atua como sec
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ...  |PARA ...                  |
 |--------------------|------------------------------------|----------------------------------------|
 |Membro da Comunidade | Me inscrever no sistema da ONG, informando nome, email, telefone, senha para login         | Se aprovado na triagem, receber atendimento psicológico gratuito              |
 |Membro da Comunidade | Visualizar datas disponíveis no calendário         | Selecionar uma data de interesse para consulta       |
