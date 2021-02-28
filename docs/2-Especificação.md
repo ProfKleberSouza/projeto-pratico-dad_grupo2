@@ -43,7 +43,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O sistema deve permitir que o Membro da Comunidade realize o cancelamento de uma consulta | ALTA|
 |RF-006| O sistema deve permitir que o Membro da Comunidade realize a mudança de data de uma consulta agendada | ALTA|
 |RF-007| O sistema deve permitir que o Profissional de Psicologia adicione informações do paciente em seu prontuário, após cada consulta | ALTA |
-|RF-008| O sistema deve permitir que a Secretária visualize membros da comunidade inscritos no sistema e aprovados na triagem, para associá-los a um Profissional de Psicologia | MÉDIA |
+|RF-008| O sistema deve permitir que o Profissional de Psicologia veja as informações do Membro da comunidade que foi associado para a consulta | ALTA |
+|RF-009| O sistema deve permitir que a Secretária visualize membros da comunidade inscritos no sistema e aprovados na triagem, para associá-los a um Profissional de Psicologia | MÉDIA |
 
 ### Requisitos não Funcionais
 
