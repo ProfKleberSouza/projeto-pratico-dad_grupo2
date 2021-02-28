@@ -61,3 +61,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| O projeto deverá ser testado pelo usuário antes de entrar em efetivo funcionamento  |
+|03| O sistema não contará com a inteligência de alocar um membro da comunidade para um psicólogo automaticamente, sendo necessário sempre que a secretária faça esse papel  |
